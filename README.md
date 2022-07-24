@@ -170,5 +170,4 @@ git clone https://github.com/desecsecurity/parsing_html_bash
 
 ---
 
-+ [edit](https://github.com/infra-patch/docs/edit/main/README.md)
 + [infra-patch/docs](https://github.com/infra-patch/docs)
