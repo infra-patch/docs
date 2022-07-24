@@ -1,4 +1,4 @@
-## EXAMPLE [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/infra-patch/bash/edit/main/DOCS/EXAMPLE.md)
+## EXAMPLE [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/infra-patch/docs/edit/main/DOCS/EXAMPLE.md)
 
 Check domain
 

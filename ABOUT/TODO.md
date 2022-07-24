@@ -1,5 +1,5 @@
 
-## TODO [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/infra-patch/bash/edit/main/DOCS/TODO.md)
+## TODO [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/infra-patch/docs/edit/main/DOCS/TODO.md)
 
 
 echo "UPDATE: infraMonit.com"

@@ -1,5 +1,5 @@
 
-## About [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/infra-patch/bash/edit/main/DOCS/ABOUT.md)
+## About [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/infra-patch/docs/edit/main/DOCS/ABOUT.md)
 
 infrapatch służy do naprawiania niedziałających elementów infrastruktury
 wedle schematu dopasowanego do typu awarii czy usterki.

@@ -1,7 +1,7 @@
 
 ![logo.infrapatch.com](https://logo.infrapatch.com/1/cover.png)
 
-# [infrapatch.com](https://www.infrapatch.com/) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/infra-patch/bash/edit/main/DOCS/MENU.md) 
+# [infrapatch.com](https://www.infrapatch.com/) [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/infra-patch/docs/edit/main/DOCS/MENU.md) 
 
 + [Strona informacyjna: www.infrapatch.com](https://www.infrapatch.com/)
 + [Dokumentacja - docs.infrapatch.com](https://docs.infrapatch.com/)
@@ -12,7 +12,7 @@
 
 
 
-## About [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/infra-patch/bash/edit/main/DOCS/ABOUT.md)
+## About [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/infra-patch/docs/edit/main/DOCS/ABOUT.md)
 
 infrapatch służy do naprawiania niedziałających elementów infrastruktury
 wedle schematu dopasowanego do typu awarii czy usterki.
@@ -145,7 +145,7 @@ OR
 ```
 
 
-## TODO [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/infra-patch/bash/edit/main/DOCS/TODO.md)
+## TODO [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/infra-patch/docs/edit/main/DOCS/TODO.md)
 
 
 echo "UPDATE: infraMonit.com"
@@ -171,5 +171,5 @@ git clone https://github.com/desecsecurity/parsing_html_bash
 
 ---
 
-+ [edit](https://github.com/infra-patch/bash/edit/main/README.md)
-+ [infra-patch/bash](https://github.com/infra-patch/bash)
++ [edit](https://github.com/infra-patch/docs/edit/main/README.md)
++ [infra-patch/docs](https://github.com/infra-patch/docs)

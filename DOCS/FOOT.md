@@ -1,5 +1,5 @@
 
 ---
 
-+ [edit](https://github.com/infra-patch/bash/edit/main/README.md)
-+ [infra-patch/bash](https://github.com/infra-patch/bash)
++ [edit](https://github.com/infra-patch/docs/edit/main/README.md)
++ [infra-patch/docs](https://github.com/infra-patch/docs)
