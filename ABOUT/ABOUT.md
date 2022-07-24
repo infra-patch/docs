@@ -2,65 +2,38 @@
 ## About [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/infra-patch/bash/edit/main/DOCS/ABOUT.md)
 
 infrapatch służy do naprawiania niedziałających elementów infrastruktury
-wedle schematu dopasoanego do typu awarii czy usterki.
+wedle schematu dopasowanego do typu awarii czy usterki.
+
+### Jakie problemy można rozwiązać dzięki rozwiązaniu infrapatch?
+
+#### Certyfikaty SSL
+Częstym problemem dla firm utrzymujących własną domenę jest aktualizowanie certyfikatu SSL
+Jest to tym trudniejsze im więcej stron www i subdomen musimy monitorować.
+
+#### Rekordy NS domeny 
+Problemy dotyczące ustawień rekordów domen, to często proste rzeczy, typu:
++ zmiana nameserwera
++ rekordu w DNS
++ przekierowanie...
+
+Wszystko jest łatwiejsze, gdy posiada się jeden serwer i domenę u tego samego providera, gdzie
+można uzyskać fachową pomoc supportu.
+
+Wraz ze wzrostem organizacji i rozbudową infrastruktury, trudno wszystko ustawić w jednym panelu i u jednego usługodawcy.
+Trzeba się zalogować na kilka platform i wiedzieć co jak ustawić a to kosztuje czas...
+
+#### Outsourcing DevOps
+
+Zapewniamy równiez specjalistę d/s bezpieczeństwa i związanym z tym zapotrzebowaniem na dorywcze zlecenia lub stały outsourcing
+głównie na błedach infrastryuktury
 
 
 
-
-często ludki z IT mają problem z ogarnięciem certyfikatu
-
-sam mam tysiące różnych stron i stronek
-
-trudno mi samemu każdą stronę poprawiać, jak się coś sypnie
-
-to są proste rzeczy, typu zmiana nameserwera
-rekordu w DNS
-Certyfikat SSL
-przekierowanie...
-
-ale trzeba się zalogować czasem na kilka platform i poklikać a to kosztuje czas...
+## Korzyści
+Możliwość naprawiania błędów, niezależnie od platformy, w sposób pół automatyczny
+nie potrzebny jest kontakt z klientem,
+wystarczy wykrycie i akceptacja, wyrażenie chęci naprawy.
+pojawia się błąd, naprawiamy.
 
 
-braku eksperta w firmie odnośnie bezpieczeństwa i związanym z tym zapotrzebowaniem na dorywcze zlecenia lub stały outsourcing
-
-głównie na bug-ach , chcę oferować możliwość naprawiania jakiś błędów, niezależnie od platformy, wówczas nie muszę nawet z klientem rozmawiać, pojawia się błąd, naprawiam
-
-a już moja głowa, czy będę siedział godzinę, czy skrypt ogarnie to w minutę
-
-
-Przede wszystkim sprawdź aktywne połączenia:
-netstat -utnp
-Opcja p wyświetla dodatkowo pid procesu. (zaznaczyłem to strzałeczką na screenie)
-Wystarczy teraz polecenie kill+<numer procesu> i intruz wyrzucony.
-Następnie odcinamy intruza za pomocą firewalla:
-firewall-cmd --permanent --zone=drop --add-source=xx.xx.xx.xx
-"Iksy" to naturalnie, adres IP.
-Teraz zabezpieczamy logi i sprawdzamy co się działo.
-To jest jednak prosty scenariusz.
-Gdy szkody są większe i musimy działać natychmiast, użyj polecenia:
-firewall-cmd --panic-on
-Odcinasz wtedy serwer od sieci. Całkowicie. Również Twoja sesja SSH przedpadnie.
-Wyłączenie trybu paniki:
-firewall-cmd --panic-off
-Ale to dalej nie jest wszystko. Są jeszcze systemy SIEM, które mogą wykonać pracę za nas. Przykładowo, darmowy system WAZUH, sam wykryje atak i usunie intruza.
-O tym jednak jutro w moim newsletterze. Zapowiada się interesująco. Będzie sporo o kluczowych narzędziach i systemach do ochrony serwerów Linux. Pokażę Ci, co musisz uruchomić w swojej sieci. Jeżeli jeszcze nie dołączyłeś do ponad 5000 specjalistów IT, śledzących mój newsletter to link do zapisu zostawię Ci w komentarzu.
-
-
-"Trwa postępowanie wyjaśniające [REGISTERED, ze statusem clientHold/serverHold]"
-
-
-Typ projektu infrastruktury
-dane
-
-DETEKCJA poprzez listę/mapę infrastruktury
-
-infrapatch_website.csv
-
-    TYP,VALUE,STATUS_HTTP
-    DOMAIN,www.infrapatch.com
-
-
-Przetwarzanie za pomocą ApiMacro
-[apimacro/examples: Examples of usage the apimacro's](https://github.com/apimacro/examples)
-[apimacro/bash: bash macro builder based on CSV data format and Command with bash scripts](https://github.com/apimacro/bash)
 
