@@ -40,7 +40,6 @@ Zapewniamy równiez specjalistę d/s bezpieczeństwa i związanym z tym zapotrze
 głównie na błedach infrastryuktury
 
 
-
 ## Korzyści
 Możliwość naprawiania błędów, niezależnie od platformy, w sposób pół automatyczny
 nie potrzebny jest kontakt z klientem,
