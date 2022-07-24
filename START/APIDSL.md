@@ -1,5 +1,5 @@
 
-## Apidsl project [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/infra-patch/docs/edit/main/DOCS/APIDSL.md)
+## Apidsl project [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/infra-patch/docs/edit/main/START/APIDSL.md)
 
 ## Test loaded package function
 

@@ -1,5 +1,5 @@
 
-## Start infrapatch [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/infrapatch/bash/edit/main/DOCS/START.md)
+## Start infrapatch [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/infrapatch/bash/edit/main/START/START.md)
 
 
 get whois data
